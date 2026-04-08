@@ -71,7 +71,7 @@ Your job:
 
 @app.route("/")
 def home():
-    return render_template("index.html")
+    return "<h1>TESTE BACKEND NOVO</h1>"
 
 
 @app.route("/chat", methods=["POST"])
